@@ -44,17 +44,3 @@ export interface Comment {
   is_hidden: boolean
   created_at: string
 }
-```
-
----
-
-### 3. 파일 구조 확인
-```
-src/
-├── lib/
-│   └── supabase/
-│       ├── client.ts  ✅
-│       └── server.ts  ✅
-├── middleware.ts       ✅
-└── types/
-    └── index.ts       ✅
